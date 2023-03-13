@@ -12,7 +12,7 @@ The dataset utilized in the experiment is the Labeled Face in a Wild (LFW) datas
 	> [Dataset LFW](http://vis-www.cs.umass.edu/lfw/),
 
 | Attribute | Without Attribute | With Attribute | 
-|--|--|--|--|
+|--|--|--|
 | Bald | 11719 | 1424
 | Bangs | 10985 | 2158
 | Black Hair | 11386 | 1715
@@ -32,7 +32,7 @@ The dataset utilized in the experiment is the Labeled Face in a Wild (LFW) datas
 The actual images will have the value based on data from Dataset LFW of 5721 individuals, 13143 photos in total, and a text file with an attribute will have the following value: 0 = has no attribute, 1 = has an attribute, The Dataset's owner has also divided the Attribute. We divided the images from the text attribute file into folders using a classifier and discovered that specific images did not fit the attribute. After visually separating the photos, we used the Confusion Matrix to gauge their accuracy. The results are as follows.
 
 | Attribute | TP | TN | FP|FN |
-|--|--|--|--|--|--|
+|--|--|--|--|--|
 | Bald |1321  |11136 |103| 583
 | Bangs | 1139  |10966 |1019 |19
 | Black Hair |  1119 | 10981|638|405
