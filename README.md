@@ -47,6 +47,17 @@ The actual images will have the value based on data from Dataset LFW of 5721 ind
 | Pale Skin | 6588 |6435 |76|44
 | Young | 2673  |10273 |71|126
 
+## Generate from AttGAN
+Using the pre-trained AttGAN model, we can generate a synthetic image and modify its attributes by changing the intensity of the attribute level. The following thirteen attributes can be created using AttGAN: Bald, Bangs, Black Hair, Blond Hair, Brown Hair, Bushy Eyebrows, Eyeglasses, Male, Mouth Slightly Open, Mustache, No Beard, Pale Skin, Young.Generating that image can be performed in a variety of formats, including
 
-## ATTGAN
+[AttGAN-PyTorch](https://github.com/elvisyjlin/AttGAN-PyTorch),
 
+## Requirements
+* Python 3
+* PyTorch 0.4.0
+* TensorboardX
+* Keras
+* Keras_vggface
+* Keras-applications
+* Mtcnn
+* Sklearn
