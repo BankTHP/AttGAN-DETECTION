@@ -9,6 +9,7 @@ The dataset utilized in the experiment is the Labeled Face in a Wild (LFW) datas
 -   5721 people
 -   1680 people with two or more images
 -   40+ Attribute 
+
 	> [Dataset LFW](http://vis-www.cs.umass.edu/lfw/),
 
 | Attribute | Without Attribute | With Attribute | 
