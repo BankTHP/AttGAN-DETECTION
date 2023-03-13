@@ -1,6 +1,6 @@
 # Transferability of CNN models for GAN-generated Face Detection
 
-Classifier สำหรับการ Detect fake image from AttGAN  
+Classifier for Detect fake image from AttGAN  
 
 ## Dataset
 The dataset utilized in the experiment is the Labeled Face in a Wild (LFW) dataset, which consists of 5721 photos of people aggregating 13143 images. The number of photographs in each attribute is summarized as follows.
